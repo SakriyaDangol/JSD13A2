@@ -1,5 +1,8 @@
 window.addEventListener('keydown', soundPlay);
 
+const input = document.querySelector('input');
+input.addEventListener('keydown', soundPlay);
+
 function soundPlay(event){
 
     const sound = document.getElementById(event.which);
