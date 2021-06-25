@@ -14,16 +14,15 @@ body{
     margin: auto;
     height: 90vh;
     font-size: larger;
-    font-weight: bolder;
 }
 
 .box{
-    background-color: rgb(0, 0, 0);
-    opacity: 0.7;
+    background-color: rgb(15, 15, 15);
+    opacity: 0.8;
     border: 2px solid black;
     border-radius: 5px;
     padding: 5px 0;
-    width: 10vw;
+    width: 95px;
     color: white;
     margin: 0 1%;
     display: flex;

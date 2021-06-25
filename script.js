@@ -1,7 +1,4 @@
-// window.addEventListener('keydown', soundPlay);
-
-const input = document.querySelector('input');
-input.addEventListener('keyup', soundPlay);
+window.addEventListener('keydown', soundPlay);
 
 function soundPlay(event){
 
